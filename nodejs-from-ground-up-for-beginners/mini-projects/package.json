@@ -1,0 +1,17 @@
+{
+  "name": "mini-projects",
+  "version": "1.0.0",
+  "description": "Eduonix Tutorial mini projects",
+  "main": "server.js",
+  "author": "Quintin Henn <quintin.henn@gmail.com> (http://skerwe.web.za)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "mongodb": "^3.5.3"
+  }
+}
