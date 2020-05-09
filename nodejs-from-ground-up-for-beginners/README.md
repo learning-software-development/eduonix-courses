@@ -1,6 +1,6 @@
 # :mortar_board: NodejS from Ground Up for Beginners
 
-Eduonix [online course][course]
+:link: Eduonix [online course][course]
 
 ## :blue_book: Documentaion
 

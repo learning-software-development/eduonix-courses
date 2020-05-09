@@ -1,6 +1,6 @@
 # :mortar_board: Animated Bootstrap Template
 
-Eduonix [online course][course]
+:link: Eduonix [online course][course]
 
 ## Utility JS Frameworks
 
