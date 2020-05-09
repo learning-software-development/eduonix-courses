@@ -1,4 +1,4 @@
-# Eduonix Courses
+# :mortar_board: Eduonix Courses
 
 These are all the [Eduonix][eduonix] online courses I completed to learn new skills and to expand my knowledge.
 
