@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML5 Audio Player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <div id="container">
+    <div id="audio-image">
+      <img src="images/covers/cover1.jpg" class="cover">
+    </div>
+    <div id="audio-player">
+      <div id="audio-info">
+        <span class="artist"></span> - <span class="title"></span>
+      </div>
+      <input type="range" id="volume" min="0" max="10" value="4">
+      <br>
+      <div id="buttons">
+        <span>
+          <button id="previous"></button>
+          <button id="play"></button>
+          <button id="pause"></button>
+          <button id="stop"></button>
+          <button id="next"></button>
+        </span>
+      </div>
+      <div class="clearfix"></div>
+      <div id="tracker">
+        <div id="progress-bar">
+          <span id="progress"></span>
+        </div>
+        <span id="duration">0:00</span>
+      </div>
+      <div class="clearfix"></div>
+      <ul id="playlist" class="hidden">
+        <li song="01 Broken Home.mp3" cover="cover1.jpg" artist="Papa Roach">Broken Home</li>
+        <li song="02 Last Resort.mp3" cover="cover1.jpg" artist="Papa Roach">Last Resort</li>
+        <li song="03 Time and Time Again.mp3" cover="cover1.jpg" artist="Papa Roach">Time and Time Again</li>
+        <li song="04 She Loves Me Not.mp3" cover="cover1.jpg" artist="Papa Roach">She Loves Me Not</li>
+        <li song="05 Scars.mp3" cover="cover1.jpg" artist="Papa Roach">Scars</li>
+        <li song="06 Getting Away with Murder.mp3" cover="cover1.jpg" artist="Papa Roach">Getting Away with Murder</li>
+        <li song="07 Just Go (Never Look Back) [#].mp3" cover="cover1.jpg" artist="Papa Roach">Just Go (Never Look Back)</li>
+        <li song="08 ...To Be Loved.mp3" cover="cover1.jpg" artist="Papa Roach">...To Be Loved</li>
+        <li song="09 Reckless.mp3" cover="cover1.jpg" artist="Papa Roach">Reckless</li>
+        <li song="10 Had Enough [Acoustic][Version]" cover="cover1.jpg" artist="Papa Roach">Had Enough [Acoustic][Version]</li>
+        <li song="11 Forever [Live].mp3" cover="cover1.jpg" artist="Papa Roach">Forever [Live]</li>
+        <li song="12 Hollywood Whore.mp3" cover="cover1.jpg" artist="Papa Roach">Hollywood Whore</li>
+        <li song="13 Lifeline.mp3" cover="cover1.jpg" artist="Papa Roach">Lifeline</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+</html>

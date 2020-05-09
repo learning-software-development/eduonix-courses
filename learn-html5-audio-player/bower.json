@@ -1,0 +1,28 @@
+{
+  "name": "html5-audio-player",
+  "version": "0.1.0",
+  "authors": [
+    "Quintin Henn <quintin.henn@gmail.com>"
+  ],
+  "description": "HTML5 audio player tutorial from Eduonix",
+  "main": "index.html",
+  "keywords": [
+    "html5",
+    "media-player",
+    "tutorial",
+    "eduonix"
+  ],
+  "license": "MIT",
+  "homepage": "http://skerwe.web.za",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}
