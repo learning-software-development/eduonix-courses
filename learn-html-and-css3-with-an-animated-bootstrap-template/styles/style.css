@@ -1,0 +1,256 @@
+body {
+  padding-top: 5rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  color: #406c96;
+}
+
+.highlight-primary {
+  background: #406c96;
+  color: #ffffff;
+  padding: 5px 25px;
+  display: inline;
+  line-height: 60px;
+  border-radius: 5px;
+}
+
+a {
+  color: #406c96;
+}
+
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  background: #ffffff;
+  min-height: 5rem;
+  text-transform: uppercase;
+  padding-top: 0.9rem;
+  text-align: center;
+  border-bottom: #cccccc solid 1px;
+}
+
+.navbar-brand {
+  padding-top: 0;
+}
+
+.nav-item span {
+  font-size: 0.625rem;
+  color: #cccccc;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  padding-right: 0.8rem;
+  padding-left: 0.8rem;
+  padding-bottom: 0.3125rem;
+}
+
+.navbar-nav > li > a {
+  padding-bottom: 0;
+  color: #666666;
+}
+
+.navbar-nav > li:hover {
+  background: #f4f4f4;
+  cursor: pointer;
+}
+
+.navbar-nav li div a {
+  padding-bottom: 0.3125rem 0;
+  border-left: 0.25rem solid #f4f4f4;
+}
+
+.navbar-nav li div a:hover {
+  border-left: 0.25rem solid #406c96;
+}
+
+.nav-item.active {
+  background: #406c96;
+  color: #ffffff;
+}
+
+.nav-item.active a {
+  color: #ffffff;
+}
+
+section {
+  padding: 30px 0;
+  overflow: hidden;
+}
+
+section h1 {
+  margin: 30px 0;
+}
+
+.section-showcase img {
+  width: 100%;
+  margin-right: -500px;
+  float: right;
+  position: relative;
+}
+
+.section-default {
+  background: #f7f8f7;
+}
+
+.section-primary {
+  background: #406c96;
+}
+
+.list-feature li {
+  list-style: none;
+  line-height: 2em;
+  padding: 5px 0;
+  font-size: 1.125rem;
+}
+
+li > i {
+  margin-right: 10px;
+  color: #406c96;
+  font-size: 1.5em;
+}
+
+.fa-white {
+  color: #ffffff;
+}
+
+.fa-lg {
+  font-size: 4em;
+}
+
+.content-icons {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.content-icons h4 {
+  color: #ffffff;
+}
+
+.content-icons i {
+  display: block;
+  padding-bottom: 15px;
+}
+
+.content-devices {
+  text-align: center;
+}
+
+.content-devices img {
+  position: relative;
+}
+
+.content-devices img#laptop {
+  margin-left: -95px;
+  z-index: 100;
+  width: 290px;
+}
+
+.content-devices img#desktop {
+  width: 375px;
+}
+
+.content-devices img#mobile {
+  z-index: 100;
+  width: 190px;
+}
+
+#footer-main {
+  background: #406c96;
+  color: #ffffff;
+  border-top: #333333 8px solid;
+  padding: 40px 0;
+}
+
+#footer-main h4, #footer-main a {
+  color: #ffffff;
+}
+
+#footer-main li {
+  list-style: square;
+  line-height: 2em;
+}
+
+.animate {
+  -moz-transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+
+  -moz-animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  -moz-animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+img#main.animate {
+  -moz-transform: translate(-40em, 0);
+  -webkit-transform: translate(-40em, 0);
+  transform: translate(-40em, 0);
+}
+
+img#laptop.animate {
+  -moz-transform: translate(12em, 0);
+  -webkit-transform: translate(12em, 0);
+  transform: translate(12em, 0);
+}
+
+img#mobile.animate {
+  -moz-transform: translate(-8em, 0);
+  -webkit-transform: translate(-8em, 0);
+  transform: translate(-8em, 0);
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+  .content-devices img#laptop {
+    width: 235px;
+  }
+
+  .content-devices img#desktop {
+    width: 293px;
+  }
+
+  .content-devices img#mobile {
+    width: 148px;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-devices img#laptop {
+    display: none;
+  }
+
+  .content-devices img#desktop {
+    width: 263px;
+  }
+
+  .content-devices img#mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.1875rem !important;
+    text-align: center !important;
+  }
+
+  h2 {
+    font-size: 1.5625rem !important;
+    text-align: center !important;
+    display: block !important;
+    line-height: 1.5em !important;
+  }
+
+  .content-icons i {
+    margin-top: 20px !important;
+  }
+}
