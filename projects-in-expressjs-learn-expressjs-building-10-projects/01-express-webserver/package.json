@@ -1,5 +1,5 @@
 {
-  "name": "webserver",
+  "name": "express-webserver",
   "version": "0.0.0",
   "description": "Simple Express web server",
   "private": true,
