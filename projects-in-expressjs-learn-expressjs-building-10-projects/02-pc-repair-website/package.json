@@ -1,20 +1,30 @@
 {
   "name": "pc-repair-website",
   "version": "0.0.0",
+  "description": "Simple Express web server",
   "private": true,
+  "main": "app.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./bin/www",
     "debug": "SET DEBUG=pc-repair-website:* & npm start"
   },
+  "keywords": [
+    "tutorial",
+    "eduonix",
+    "node",
+    "expressjs"
+  ],
+  "license": "ISC",
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~4.1.1",
-    "express": "~4.17.1",
-    "http-errors": "~1.7.3",
-    "morgan": "~1.9.1",
-    "pug": "2.0.4"
+    // "cookie-parser": "~1.4.4",
+    // "debug": "~4.1.1",
+    "express": "^4.17.1",
+    // "http-errors": "~1.7.3",
+    // "morgan": "~1.9.1",
+    // "pug": "2.0.4"
   },
   "devDependencies": {
-    "nodemon": "^1.19.4"
+    "nodemon": "^2.0.5"
   }
 }
