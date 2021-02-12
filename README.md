@@ -23,7 +23,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 
 ### Software Development Courses
 
-1. :o: [Learn Python programming From Scratch](https://www.eduonix.com/new_dashboard/Learn-Python-programming-From-Scratch)
+1. :o: [Learn Python programming From Scratch](learn-python-programming-from-scratch/)
 
 ### Game Development Courses
 
@@ -32,7 +32,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 ### Other Courses
 
 1. :heavy_check_mark: Icon Design Masterclass : Learn Icon Design Principles
-2. :o: [Learn Linux from Scratch](https://www.eduonix.com/new_dashboard/learn-linux-from-scratch)
+2. :o: [Learn Linux from Scratch](https://www.eduonix.com/new_dashboard/learn-linux-from-scratch) :link:
 
 ## :page_with_curl: License
 
