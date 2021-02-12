@@ -9,27 +9,27 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 
 ## :beginner: Tutorials and Courses
 
-### Web Development
+### Web Development Courses
 
 1. :heavy_check_mark: [Learn HTML5 Audio Player](learn-html5-audio-player/)
 2. :heavy_check_mark: [Learn HTML and CSS3 with an animated Bootstrap template](learn-html-and-css3-with-an-animated-bootstrap-template/)
 3. :heavy_check_mark: [Basic HTML5 & CSS for beginners (Build One Project)](basic-html5-css-for-beginners/)
 4. :o: [Learn HTML5 Programming For Beginners](learn-html5-programming-for-beginners/)
 
-### Web Application Development
+### Web Application Development Courses
 
 1. :heavy_check_mark: [NodejS from Ground Up for Beginners](nodejs-from-ground-up-for-beginners/)
 2. :o: [Projects in ExpressJS-Learn ExpressJs building 10 projects](projects-in-expressjs-learn-expressjs-building-10-projects/)
 
-### Software Development
+### Software Development Courses
 
-1. :construction: [Learn Python programming From Scratch](https://www.eduonix.com/new_dashboard/Learn-Python-programming-From-Scratch)
+1. :o: [Learn Python programming From Scratch](https://www.eduonix.com/new_dashboard/Learn-Python-programming-From-Scratch)
 
-### Game Development
+### Game Development Courses
 
 1. :heavy_check_mark: [Learn How To Build A Game Using Java](https://github.com/learning-game-development/learning-java-game-development/blob/master/block-breaker-tutorial) :rocket:
 
-### Other
+### Other Courses
 
 1. :heavy_check_mark: Icon Design Masterclass : Learn Icon Design Principles
 2. :o: [Learn Linux from Scratch](https://www.eduonix.com/new_dashboard/learn-linux-from-scratch)
