@@ -32,7 +32,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 ### Other Courses
 
 1. :heavy_check_mark: Icon Design Masterclass : Learn Icon Design Principles
-2. :o: [Learn Linux from Scratch](https://www.eduonix.com/new_dashboard/learn-linux-from-scratch) :link:
+2. :heavy_check_mark: [Learn Linux from Scratch](https://www.eduonix.com/new_dashboard/learn-linux-from-scratch) :link:
 
 ## :page_with_curl: License
 
