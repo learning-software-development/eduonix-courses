@@ -1,0 +1,13 @@
+body {
+  background-color: darkslategray;
+  color: bisque;
+  padding: 20px 10px
+}
+
+img {
+  padding: 10px 5px;
+}
+
+a {
+  color: aliceblue;
+}
