@@ -4,3 +4,6 @@ from django.db import models
 class Message(models.Model):
     message = models.CharField(max_length=400)
     username = models.CharField(max_length=100)
+
+    def __unicode__(self):
+        return self.message;
