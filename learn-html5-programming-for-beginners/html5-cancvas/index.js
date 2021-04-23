@@ -50,4 +50,59 @@ function makeCanvas() {
 
   var canvas4 = document.getElementById('canvas4');
   var ctx4 = canvas4.getContext('2d');
+
+  ctx4.fillStyle = 'blue';
+
+  ctx4.beginPath();
+  ctx4.arc(200, 30, 25, 0, Math.PI * 2);
+  ctx4.stroke();
+  ctx4.fill();
+  ctx4.closePath();
+
+  ctx4.fillStyle = 'red';
+
+  ctx4.beginPath();
+  ctx4.arc(200, 100, 45, 0, Math.PI * 2);
+  ctx4.fill();
+  ctx4.closePath();
+
+  ctx4.fillStyle = 'black';
+
+  ctx4.beginPath();
+  ctx4.arc(200, 220, 75, 0, Math.PI * 2);
+  ctx4.fill();
+  ctx4.closePath();
+
+  var canvas5 = document.getElementById('canvas5');
+  var ctx5 = canvas5.getContext('2d');
+
+  var posX = 0;
+  var posY = 0;
+  setInterval(function() {
+    posX += 1;
+    posY += 1;
+    ctx5.fillStyle = 'black';
+    ctx5.fillRect(0, 0, canvas5.width, canvas5.height);
+
+    ctx5.fillStyle = 'white';
+
+    ctx5.beginPath();
+    ctx5.arc(posX, 120, 55, 0, Math.PI * 2);
+    ctx5.fill();
+    ctx5.closePath();
+
+    ctx5.fillStyle = 'red';
+
+    ctx5.beginPath();
+    ctx5.arc(150, posY, 55, 0, Math.PI * 2);
+    ctx5.fill();
+    ctx5.closePath();
+
+    ctx5.fillStyle = 'blue';
+
+    ctx5.beginPath();
+    ctx5.arc(posX, posY, 55, 0, Math.PI * 2);
+    ctx5.fill();
+    ctx5.closePath();
+  }, 30);
 }
