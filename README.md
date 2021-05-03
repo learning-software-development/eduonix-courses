@@ -23,7 +23,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 
 ### Software Development Courses
 
-1. :o: [Learn Python programming From Scratch](learn-python-programming-from-scratch/)
+1. :heavy_check_mark: [Learn Python programming From Scratch](learn-python-programming-from-scratch/)
 
 ### Game Development Courses
 
