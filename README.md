@@ -14,7 +14,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 1. :heavy_check_mark: [Learn HTML5 Audio Player](learn-html5-audio-player/)
 2. :heavy_check_mark: [Learn HTML and CSS3 with an animated Bootstrap template](learn-html-and-css3-with-an-animated-bootstrap-template/)
 3. :heavy_check_mark: [Basic HTML5 & CSS for beginners (Build One Project)](basic-html5-css-for-beginners/)
-4. :o: [Learn HTML5 Programming For Beginners](learn-html5-programming-for-beginners/)
+4. :heavy_check_mark: [Learn HTML5 Programming For Beginners](learn-html5-programming-for-beginners/)
 
 ### Web Application Development Courses
 

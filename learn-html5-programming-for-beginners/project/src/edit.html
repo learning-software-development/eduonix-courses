@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Planner HTML5 App</title>
+  <title>Edit Task | Daily Planner</title>
   <meta name="theme-color" content="#7952b3">
 </head>
 
@@ -15,7 +15,7 @@
     <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Daily Planner</a>
+        <a class="navbar-brand" href="index.html">Daily Planner</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -36,9 +36,32 @@
 
   <main class="flex-shrink-0">
     <div class="container">
-      <h1 class="mt-5">Daily Tasks</h1>
-      <p class="lead">All your tasks for today</p>
+      <h1 class="mt-5">Edit Task</h1>
+      <p class="lead">Create a new task</p>
 
+      <form id="edit-task-form" role="form" action="index.html">
+        <div class="mb-3">
+          <label for="task" class="form-label">Tasks</label>
+          <input type="text" class="form-control" id="task" aria-describedby="taskHelp">
+          <div id="taskHelp" class="form-text">Enter a task name.</div>
+        </div>
+        <div class="mb-3">
+          <label for="priority" class="form-label">Priority</label>
+          <select class="form-select" id="priority" aria-label="Default select example" aria-describedby="priorityHelp">
+            <option value="Low">Low</option>
+            <option value="Normal" selected>Normal</option>
+            <option value="High">High</option>
+          </select>
+          <div id="priorityHelp" class="form-text">Select a priority for the task.</div>
+        </div>
+        <div class="mb-3">
+          <label for="date" class="form-label">Date</label>
+          <input type="date" class="form-control" id="date" aria-describedby="dateHelp">
+          <div id="dateHelp" class="form-text">Choose the task end date.</div>
+        </div>
+        <input type="hidden" id="task_id" name="task_id">
+        <button type="submit" class="btn btn-primary">Update</button>
+      </form>
 
     </div>
   </main>
