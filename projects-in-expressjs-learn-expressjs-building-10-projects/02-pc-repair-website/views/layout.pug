@@ -1,5 +1,5 @@
 doctype html
-html(lang='en')
+html.h-100(lang='en')
   head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible' content='IE=edge')
@@ -14,41 +14,32 @@ html(lang='en')
     title= title
 
     link(rel='stylesheet', href='/stylesheets/bootstrap.css')
-    link(rel='stylesheet', href='/stylesheets/bootstrap-theme.css')
-    link(rel='stylesheet', href='/stylesheets/ie10-viewport-bug-workaround.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  body
+    meta(name="theme-color" content="#7952b3")
 
-    nav.navbar.navbar-inverse.navbar-fixed-top
+  body.d-flex.flex-column.h-100
+
+    nav.navbar.navbar-expand-md.navbar-dark.bg-dark.mb-4
       div.container
         div.navbar-header
-          button(type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#navbar' aria-expanded='false' aria-controls='navbar')
-            span.sr-only Toggle navigation
-            span.icon-bar
-            span.icon-bar
-            span.icon-bar
           a.navbar-brand(href='/') PC Repair Website
-        div#navbar.collapse.navbar-collapse
-          ul.nav.navbar-nav
-            li(class= title=='Home' ? 'active' : undefined): a(href='/') Home
-            li(class= title=='About' ? 'active' : undefined): a(href='/about') About
-            li(class= title=='Services' ? 'active' : undefined): a(href='/services') Services
-            li(class= title=='Contact' ? 'active' : undefined): a(href='/contact') Contact
+        button.navbar-toggler(type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation")
+          span.navbar-toggler-icon
+        div#navbarCollapse.collapse.navbar-collapse
+          ul.navbar-nav.me-auto.mb-2.mb-md-0
+            li.nav-item(class= title=='Home' ? 'active' : undefined): a.nav-link.active(href='/') Home
+            li.nav-item(class= title=='About' ? 'active' : undefined): a.nav-link(href='/about') About
+            li.nav-item(class= title=='Services' ? 'active' : undefined): a.nav-link(href='/services') Services
+            li.nav-item(class= title=='Contact' ? 'active' : undefined): a.nav-link(href='/contact') Contact
 
-    div.container
-      block content
+    main.flex-shrink-0
+      div.container
+        block content
 
-      hr
-      footer.footer
-        p PC Repair &copy; 2019
+    footer.footer.mt-auto.py-3.bg-light
+      div.container
+        span.text-muted PC Repair &copy; 2021
 
-    script(src='/javascripts/vendor/jquery.min.js')
-    script(src='/javascripts/bootstrap.js')
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    script(src='/javascripts/ie10-viewport-bug-workaround.js')
+    script(src='/javascripts/jquery-3.6.0.min.js')
+    script(src='/javascripts/bootstrap.bundle.js')
