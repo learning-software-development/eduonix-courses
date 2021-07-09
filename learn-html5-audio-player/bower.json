@@ -2,7 +2,7 @@
   "name": "html5-audio-player",
   "version": "0.1.0",
   "authors": [
-    "Quintin Henn <quintin.henn@gmail.com>"
+    "Quintin Henn (http://skerwe.web.za)"
   ],
   "description": "HTML5 audio player tutorial from Eduonix",
   "main": "index.html",

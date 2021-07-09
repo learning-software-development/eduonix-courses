@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Eduonix Tutorial mini projects",
   "main": "server.js",
-  "author": "Quintin Henn <quintin.henn@gmail.com> (http://skerwe.web.za)",
+  "author": "Quintin Henn (http://skerwe.web.za)",
   "license": "MIT",
   "private": true,
   "scripts": {
