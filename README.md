@@ -20,11 +20,13 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 
 1. :heavy_check_mark: [NodejS from Ground Up for Beginners](nodejs-from-ground-up-for-beginners/)
 2. :o: [Projects in ExpressJS-Learn ExpressJs building 10 projects](projects-in-expressjs-learn-expressjs-building-10-projects/)
+3. :o: Learn Nodejs programming from Scratch
 
 ### Software Development Courses
 
 1. :heavy_check_mark: [Learn Python programming From Scratch](learn-python-programming-from-scratch/)
 2. :o: [The Developers Guide to Python 3 Programming](developers-guide-to-python-3-programming/)
+3. :o: Learn Android Development From Scratch
 
 ### Game Development Courses
 
