@@ -10,12 +10,10 @@
 ## Modules
 
 - [node-xml2js](https://www.npmjs.com/package/xml2js)
-
-* [Express](https://expressjs.com/)
-* [Helmet](https://helmetjs.github.io/)
-* [Socket.io](https://socket.io/)
-
-- [Mustache ](http://mustache.github.io/)
+- [Express](https://expressjs.com/)
+- [Helmet](https://helmetjs.github.io/)
+- [Socket.io](https://socket.io/)
+- [Mustache](http://mustache.github.io/)
 - [Mustache Express](https://github.com/bryanburgers/node-mustache-express#readme)
 
 ### Sessions

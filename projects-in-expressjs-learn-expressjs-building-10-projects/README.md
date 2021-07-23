@@ -2,7 +2,7 @@
 
 :link: Eduonix [online course][course]
 
-## Technology
+## Technology Colophon
 
 1. [Node.js](https://nodejs.org/en/)
 2. [Express](https://expressjs.com/)
