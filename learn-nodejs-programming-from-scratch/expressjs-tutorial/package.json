@@ -1,0 +1,20 @@
+{
+  "name": "expressjs-tutorial",
+  "version": "0.1.0",
+  "description": "Learning ExpressJS with EJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learning",
+    "expressjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

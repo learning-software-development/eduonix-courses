@@ -1,0 +1,25 @@
+{
+  "name": "expressjs-jade-stylus",
+  "version": "0.1.0",
+  "description": "Learning ExpressJS with Jade and Stylus",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learning",
+    "expressjs",
+    "jade",
+    "stylus",
+    "nib"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jade": "^1.11.0",
+    "nib": "^1.1.2",
+    "stylus": "^0.54.8"
+  }
+}
