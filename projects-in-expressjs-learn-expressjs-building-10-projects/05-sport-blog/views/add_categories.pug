@@ -2,3 +2,13 @@ extends layout
 
 block content
   h1= title
+  .mt-4
+  form(method="POST" action="/categories/add")
+    div.mb-3
+      label.form-label(for="title") Title
+      input.form-control(type="text" name="title" id="title")
+    div.mb-3
+      label.form-label(for="description") Description
+      textarea.form-control(name="description" id="description" cols="30" rows="10")
+    button.btn.btn-primary(type="submit" name="submit") Save
+    a.btn.btn-danger(href="/manage/categories") Back

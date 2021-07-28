@@ -2,3 +2,7 @@ extends layout
 
 block content
   h1= title
+  .mt-4
+  .list-group.list-group-flush
+    each category, index in categories
+      a.list-group-item.list-group-item-action(href='/articles/category/'+index) #{category.title}

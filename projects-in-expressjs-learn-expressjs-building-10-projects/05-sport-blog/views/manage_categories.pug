@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1= title
+  .mt-4
+  table.table.table-striped
+    thead
+      tr
+        th(scope="col") #
+        th(scope="col") Category Title
+        th(scope="col") Category Description
+        th(scope="col")
+    tbody
+      each category, index in categories
+        tr
+          td.align-middle(scope="row")= index + 1
+          td.align-middle= category.title
+          td.align-middle= category.description
+          td
+            a.btn.btn-sm.btn-outline-secondary(role="button" href="/manage/categories/edit/" + index) Edit
