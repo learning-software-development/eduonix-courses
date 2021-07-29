@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  .mt-4
+  form(method="POST" action="/categories/delete/" + id)
+    div.mb-3
+      label.form-label(for="title") Title
+      input.form-control(type="text" name="title" id="title" value=category.title disabled)
+    div.mb-3
+      label.form-label(for="description") Description
+      textarea.form-control(name="description" id="description" cols="30" rows="10" disabled)= category.description
+
+    button.btn.btn-danger(type="submit" name="submit") Delete
+    a.btn.btn-secondary(href="/manage/categories") Cancel

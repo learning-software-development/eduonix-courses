@@ -1,7 +1,11 @@
 extends layout
 
 block content
-  h1= title
+  .row
+    .col-10
+      h1= title
+    .col-2.text-end
+      a.btn.btn-sm.btn-primary(role="button" href="/manage/categories/add" style="margin-top: 10px; margin-right: 8px") Add Category
   .mt-4
   table.table.table-striped
     thead
@@ -9,6 +13,7 @@ block content
         th(scope="col") #
         th(scope="col") Category Title
         th(scope="col") Category Description
+        th(scope="col")
         th(scope="col")
     tbody
       each category, index in categories
@@ -18,3 +23,5 @@ block content
           td.align-middle= category.description
           td
             a.btn.btn-sm.btn-outline-secondary(role="button" href="/manage/categories/edit/" + index) Edit
+          td
+            a.btn.btn-sm.btn-outline-danger(role="button" href="/manage/categories/delete/" + index) Delete

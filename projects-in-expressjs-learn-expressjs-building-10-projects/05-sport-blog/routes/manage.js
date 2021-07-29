@@ -8,7 +8,7 @@ router.get('/articles', (req, res, next) => {
 });
 
 router.get('/categories', (req, res, next) => {
-  let categories = Category.getCategory();
+  let categories = Category.getCategories();
   res.render('manage_categories', {
     title: 'Manage Categories',
     categories
@@ -28,7 +28,21 @@ router.get('/articles/edit/:id', (req, res, next) => {
 });
 
 router.get('/categories/edit/:id', (req, res, next) => {
-  res.render('edit_categories', { title: 'EDIT CATEGORIES' });
+  let category = Category.getCategoryById(req.params.id);
+  res.render('edit_categories', {
+    title: 'Edit Category',
+    category,
+    id: req.params.id
+  });
+});
+
+router.get('/categories/delete/:id', (req, res, next) => {
+  let category = Category.getCategoryById(req.params.id);
+  res.render('delete_categories', {
+    title: 'Delete Category',
+    category,
+    id: req.params.id
+  });
 });
 
 module.exports = router;
