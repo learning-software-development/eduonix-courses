@@ -1,6 +1,6 @@
 {
   "name": "pc-repair-website",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Simple Express web server",
   "private": true,
   "main": "app.js",
@@ -15,6 +15,7 @@
     "node",
     "expressjs"
   ],
+  "author": "Quintin Henn (http://skerwe.web.za)",
   "license": "ISC",
   "dependencies": {
     "cookie-parser": "~1.4.4",

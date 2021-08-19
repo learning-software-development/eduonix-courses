@@ -1,10 +1,10 @@
 {
   "name": "mini-projects",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Eduonix Tutorial mini projects",
   "main": "server.js",
   "author": "Quintin Henn (http://skerwe.web.za)",
-  "license": "MIT",
+  "license": "ISC",
   "private": true,
   "scripts": {
     "start": "nodemon server.js"

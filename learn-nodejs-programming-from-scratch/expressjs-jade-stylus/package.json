@@ -14,7 +14,7 @@
     "stylus",
     "nib"
   ],
-  "author": "",
+  "author": "Quintin Henn (http://skerwe.web.za)",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",

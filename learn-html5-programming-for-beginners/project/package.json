@@ -1,6 +1,6 @@
 {
   "name": "project",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A project in HTML5",
   "main": "src/index.html",
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "parcel build ./src/index.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "Quintin Henn (http://skerwe.web.za)",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-beta.2",
