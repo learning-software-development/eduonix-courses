@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  h1= title
+  .mt-4
+  form(method="POST" action="/articles/delete/" + id)
+    div.mb-3
+      label.form-label(for="title") Title
+      input.form-control(type="text" name="title" id="title" value=article.title disabled)
+    div.mb-3
+      label.form-label(for="subtitle") Subtitle
+      input.form-control(type="text" name="subtitle" id="subtitle" value=article.subtitle disabled)
+    div.mb-3
+      label.form-label(for="category") Category
+      select.form-control(type="text" name="category" id="category" disabled)
+        each category, index in categories
+          if (index == article.category)
+            option(value=index, selected) #{category.title}
+          else
+            option(value=index) #{category.title}
+    div.mb-3
+      label.form-label(for="author") Author
+      input.form-control(type="text" name="author" id="author" value=article.author disabled)
+    div.mb-3
+      label.form-label(for="body") Body
+      textarea.form-control(name="body" id="body" cols="30" rows="10" disabled)= article.body
+
+    button.btn.btn-danger(type="submit" name="submit") Delete
+    a.btn.btn-secondary(href="/manage/articles") Cancel

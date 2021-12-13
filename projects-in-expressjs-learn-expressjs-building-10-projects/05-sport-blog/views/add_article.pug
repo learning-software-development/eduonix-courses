@@ -2,3 +2,25 @@ extends layout
 
 block content
   h1= title
+  .mt-4
+  form(method="POST" action="/articles/add")
+    div.mb-3
+      label.form-label(for="title") Title
+      input.form-control(type="text" name="title" id="title")
+    div.mb-3
+      label.form-label(for="subtitle") Subtitle
+      input.form-control(type="text" name="subtitle" id="subtitle")
+    div.mb-3
+      label.form-label(for="category") Category
+      select.form-control(type="text" name="category" id="category")
+        each category, index in categories
+          option(value=index) #{category.title}
+    div.mb-3
+      label.form-label(for="author") Author
+      input.form-control(type="text" name="author" id="author")
+    div.mb-3
+      label.form-label(for="body") Body
+      textarea.form-control(name="body" id="body" cols="30" rows="10")
+
+    button.btn.btn-primary(type="submit" name="submit") Save
+    a.btn.btn-secondary(href="/manage/articles") Back

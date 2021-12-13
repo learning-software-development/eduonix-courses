@@ -15,7 +15,7 @@ let categories = [
 
 function getCategories() {
   return categories;
-};
+}
 
 function addCategory(category) {
   categories.push(category);

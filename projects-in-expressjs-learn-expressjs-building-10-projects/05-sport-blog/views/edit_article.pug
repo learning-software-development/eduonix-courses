@@ -2,3 +2,29 @@ extends layout
 
 block content
   h1= title
+  .mt-4
+  form(method="POST" action="/articles/edit/" + id)
+    div.mb-3
+      label.form-label(for="title") Title
+      input.form-control(type="text" name="title" id="title" value=article.title)
+    div.mb-3
+      label.form-label(for="subtitle") Subtitle
+      input.form-control(type="text" name="subtitle" id="subtitle" value=article.subtitle)
+    div.mb-3
+      label.form-label(for="category") Category
+      select.form-control(type="text" name="category" id="category")
+        each category, index in categories
+          if (index == article.category)
+            option(value=index, selected) #{category.title}
+          else
+            option(value=index) #{category.title}
+    div.mb-3
+      label.form-label(for="author") Author
+      input.form-control(type="text" name="author" id="author" value=article.author)
+    div.mb-3
+      label.form-label(for="body") Body
+      textarea.form-control(name="body" id="body" cols="30" rows="10")= article.body
+
+    button.btn.btn-primary(type="submit" name="submit") Save
+    a.btn.btn-secondary(href="/manage/articles") Back
+    a.btn.btn-danger(href="/manage/articles/delete/" + id) Delete
