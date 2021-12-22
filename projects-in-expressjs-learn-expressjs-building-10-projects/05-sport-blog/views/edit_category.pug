@@ -3,6 +3,10 @@ extends layout
 block content
   h1= title
   .mt-4
+  div.errors
+    if errors
+      each error, index in errors
+        div.alert.alert-danger= error.param
   form(method="POST" action="/categories/edit/" + id)
     div.mb-3
       label.form-label(for="title") Title
