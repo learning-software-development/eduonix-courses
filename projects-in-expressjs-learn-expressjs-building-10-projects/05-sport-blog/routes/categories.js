@@ -14,7 +14,7 @@ router.get('/', (req, res, next) => {
   });
 });
 
-router.post('/add', body(['title', 'Title is required']).exists(), (req, res, next) => {
+router.post('/add', body('title', 'Title is required').notEmpty(), (req, res, next) => {
   const errors = validationResult(req);
 
   let category = {
@@ -23,19 +23,21 @@ router.post('/add', body(['title', 'Title is required']).exists(), (req, res, ne
   };
 
   if (!errors.isEmpty()) {
-    return res.render('add_category', {
+    res.render('add_category', {
       title: 'Add Category',
       errors: errors.array(),
       category
     });
+  } else {
+    Category.addCategory(category);
+
+    req.flash('success', 'Category Saved');
+    res.redirect('/manage/categories');
   }
 
-  Category.addCategory(category);
-
-  res.redirect('/manage/categories');
 });
 
-router.post('/edit/:id', body(['title', 'Title is required']).exists(), (req, res, next) => {
+router.post('/edit/:id', body('title', 'Title is required').exists(), (req, res, next) => {
   const errors = validationResult(req);
 
   let category = {
@@ -44,17 +46,19 @@ router.post('/edit/:id', body(['title', 'Title is required']).exists(), (req, re
   };
 
   if (!errors.isEmpty()) {
-    return res.render('edit_category', {
+    res.render('edit_category', {
       title: 'Edit Category',
       errors: errors.array(),
       category,
       id: req.params.id
     });
+  } else {
+    Category.updateCategory(category, req.params.id);
+
+    req.flash('success', 'Category Updated');
+    res.redirect('/manage/categories');
   }
 
-  Category.updateCategory(category, req.params.id);
-
-  res.redirect('/manage/categories');
 });
 
 router.post('/delete/:id', (req, res, next) => {

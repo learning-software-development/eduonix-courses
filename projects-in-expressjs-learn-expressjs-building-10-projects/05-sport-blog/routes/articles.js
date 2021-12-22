@@ -20,10 +20,10 @@ router.get('/category/:id', (req, res, next) => {
 });
 
 router.post('/add',
-  body(['title', 'Title is required']).exists(),
-  body(['author', 'Author is required']).exists(),
-  body(['body', 'Body is required']).exists(),
-  body(['category', 'Category is required']).exists(),
+  body('title', 'Title is required').exists(),
+  body('author', 'Author is required').exists(),
+  body('body', 'Body is required').exists(),
+  body('category', 'Category is required').exists(),
   (req, res, next) => {
 
     const errors = validationResult(req);
@@ -38,24 +38,26 @@ router.post('/add',
     };
 
     if (!errors.isEmpty()) {
-      return res.render('add_article', {
+      res.render('add_article', {
         title: 'Add Article',
         errors: errors.array(),
         article,
         categories: Category.getCategories()
       });
+    } else {
+      Article.addArticle(article);
+
+      req.flash('success', 'Article Updated');
+      res.redirect('/manage/articles');
     }
 
-    Article.addArticle(article);
-
-    res.redirect('/manage/articles');
   });
 
 router.post('/edit/:id',
-  body(['title', 'Title is required']).exists(),
-  body(['author', 'Author is required']).exists(),
-  body(['body', 'Body is required']).exists(),
-  body(['category', 'Category is required']).exists(),
+  body('title', 'Title is required').exists(),
+  body('author', 'Author is required').exists(),
+  body('body', 'Body is required').exists(),
+  body('category', 'Category is required').exists(),
   (req, res, next) => {
     const errors = validationResult(req);
 
@@ -69,18 +71,20 @@ router.post('/edit/:id',
     };
 
     if (!errors.isEmpty()) {
-      return res.render('edit_article', {
+      res.render('edit_article', {
         title: 'Edit Article',
         errors: errors.array(),
         article,
         categories: Category.getCategories(),
         id: req.params.id
       });
+    } else {
+      Article.updateArticle(article, req.params.id);
+
+      req.flash('success', 'Article Updated');
+      res.redirect('/manage/articles');
     }
 
-    Article.updateArticle(article, req.params.id);
-
-    res.redirect('/manage/articles');
   });
 
 router.post('/delete/:id', (req, res, next) => {

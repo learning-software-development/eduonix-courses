@@ -11,6 +11,7 @@
 
 - [Express Messages](https://github.com/visionmedia/express-messages)
   - [connect-flash](https://github.com/jaredhanson/connect-flash)
+- [express-session](https://www.npmjs.com/package/express-session)
 - [express-validator](https://express-validator.github.io/docs/)
 
 ## Fixes
