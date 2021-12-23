@@ -1,4 +1,10 @@
 extends layout
 
 block content
-  h1= title
+  h1= article.title
+  h4.post-subtitle= article.subtitle
+  p.post-meta
+    | Posted by #{article.author}
+    | on #{moment(article.created_at).format('DD/MM/YYYY')}
+  p.post-body
+    | #{article.body}

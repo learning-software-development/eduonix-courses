@@ -2,3 +2,14 @@ extends layout
 
 block content
   h1= title
+  .mt-4
+  .row
+    .col
+      each article, index in articles
+        a(href="/articles/show/" + index)
+          h2.post-title= article.title
+        h4.post-subtitle= article.subtitle
+        p.post-meta
+          | Posted by #{article.author}
+          | on #{moment(article.created_at).format('DD/MM/YYYY')}
+        hr

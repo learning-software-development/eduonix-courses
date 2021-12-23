@@ -8,11 +8,13 @@ const Category = require('../models/category');
 const Article = require('../models/article');
 
 router.get('/', (req, res, next) => {
-  res.render('articles', { title: 'ARTICLES' });
+  let articles = Article.getArticles();
+  res.render('articles', { title: 'Articles', articles });
 });
 
 router.get('/show/:id', (req, res, next) => {
-  res.render('article', { title: 'ARTICLE' });
+  let article = Article.getArticleById(req.params.id);
+  res.render('article', { article });
 });
 
 router.get('/category/:id', (req, res, next) => {

@@ -1,9 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
-/* GET home page. */
+const Article = require('../models/article');
+
 router.get('/', (req, res, next) => {
-  res.render('index', { title: 'INDEX' });
+  let articles = Article.getArticles();
+  res.render('index', { title: 'Sports Blog', articles });
 });
 
 module.exports = router;
