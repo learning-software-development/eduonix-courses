@@ -6,6 +6,8 @@
 
 1. [Node.js](https://nodejs.org/en/)
 2. [Express](https://expressjs.com/)
+3. [Pug template engine](https://pugjs.org/api/getting-started.html)
+4. [Bootstrap 5](https://getbootstrap.com/)
 
 ## Express Middleware
 
@@ -13,6 +15,12 @@
   - [connect-flash](https://github.com/jaredhanson/connect-flash)
 - [express-session](https://www.npmjs.com/package/express-session)
 - [express-validator](https://express-validator.github.io/docs/)
+- [body-parser](http://expressjs.com/en/resources/middleware/body-parser.html)
+
+## Authentication Middleware
+
+- [Passport](https://www.passportjs.org/)
+- [bcrypt](https://www.npmjs.com/package/bcryptjs)
 
 ## Fixes
 

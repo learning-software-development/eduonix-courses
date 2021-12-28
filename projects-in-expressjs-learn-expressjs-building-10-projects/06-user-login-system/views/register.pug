@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  h1= title
+  .mt-4
+  div.errors
+    if errors
+      each error, index in errors
+        div.alert.alert-danger= error.msg
+  form(method="POST" action="/register")
+    div.mb-3
+      label.form-label(for="name") Name
+      input.form-control(type="text" name="name" id="name" value=userDetails.name)
+    div.mb-3
+      label.form-label(for="username") Username
+      input.form-control(type="text" name="username" id="username" value=userDetails.username)
+    div.mb-3
+      label.form-label(for="email") Email
+      input.form-control(type="email" name="email" id="email" value=userDetails.email)
+    div.mb-3
+      label.form-label(for="password") Password
+      input.form-control(type="password" name="password" id="password")
+    div.mb-3
+      label.form-label(for="password_confirm") Confirm Password
+      input.form-control(type="password" name="password_confirm" id="password_confirm")
+
+    button.btn.btn-primary(type="submit" name="submit") Register
+    a.btn.btn-secondary(href="/") Cancel
+
+  div.my-2
+    | Already have an account?
+    a.link(href="/login") Login now
