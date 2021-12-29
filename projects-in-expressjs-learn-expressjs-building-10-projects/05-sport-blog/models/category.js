@@ -22,7 +22,7 @@ function addCategory(category) {
 }
 
 function getCategoryById(id) {
-  if (id >= categories.length) return null;
+  if (id < 0 || id >= categories.length) return null;
   return categories[id];
 }
 

@@ -25,7 +25,7 @@ function addArticle(article) {
 }
 
 function getArticleById(id) {
-  if (id >= articles.length) return null;
+  if (id < 0 || id >= articles.length) return null;
   return articles[id];
 }
 

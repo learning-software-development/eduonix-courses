@@ -3,6 +3,8 @@ const router = express.Router();
 
 const { body, validationResult } = require('express-validator');
 
+const Users = require('../models/user');
+
 router.get('/', function (req, res, next) {
   res.render('register', { title: 'User Registration', userDetails: {} });
 });
@@ -12,7 +14,7 @@ router.post('/',
   body('username', 'Username is required').exists(),
   body('email', 'Email is required').exists(),
   body('email', 'Email must be a valid email address').isEmail().normalizeEmail(),
-  body('password', 'Password is required').exists(),
+  body('password', 'Password is required').exists().isLength({ min: 5 }),
   body('password_confirm', 'Password do not match').exists().custom((value, { req }) => value === req.body.password),
   (req, res, next) => {
 
@@ -25,14 +27,17 @@ router.post('/',
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       res.render('register', {
+        errors: errors.array(),
         title: 'User Registration',
         userDetails
       });
     } else {
       const password = req.body.password;
-      const passwordConfirm = req.body.password_confirm;
-
+      let newUser = { ...userDetails, password };
+      Users.createUser(newUser);
       console.log('SUCCESS');
+      req.flash('success', 'Successful registered!');
+      res.redirect('/login');
     }
 
   });
