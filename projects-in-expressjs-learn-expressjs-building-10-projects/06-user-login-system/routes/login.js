@@ -3,8 +3,6 @@ const router = express.Router();
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 
-const { body, validationResult } = require('express-validator');
-
 const Users = require('../models/user');
 
 passport.use(new LocalStrategy(
@@ -39,31 +37,5 @@ router.post('/',
     failureRedirect: '/login',
     failureFlash: true
   }));
-
-router.post('/2',
-  body('username', 'Username is required').exists(),
-  body('password', 'Password do not match').exists().custom((value, { req }) => value === req.body.password),
-  (req, res, next) => {
-
-    let userLoginDetails = {
-      username: req.body.username,
-      password: req.body.password
-    }
-
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      res.render('login', {
-        title: 'User Login',
-        username: req.body.username
-      });
-    } else {
-      // let newUser = { ...userDetails, password };
-      // Users.createUser(newUser);
-      console.log('SUCCESS');
-      req.flash('success', 'Successful logged in!');
-      res.redirect('/');
-    }
-
-  });
 
 module.exports = router;
