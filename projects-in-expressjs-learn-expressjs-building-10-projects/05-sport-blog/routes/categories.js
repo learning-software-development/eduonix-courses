@@ -5,7 +5,6 @@ const { body, validationResult } = require('express-validator');
 
 const Category = require('../models/category');
 
-/* GET home page. */
 router.get('/', (req, res, next) => {
   let categories = Category.getCategories();
   res.render('categories', {

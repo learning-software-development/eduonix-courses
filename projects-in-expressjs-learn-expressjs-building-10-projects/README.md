@@ -25,5 +25,6 @@
 ## Fixes
 
 - [How to create jumbotron in Bootstrap 5?](https://stackoverflow.com/questions/63141494/how-to-create-jumbotron-in-bootstrap-5)
+- [Creating Socket.IO Server using Express Generator](https://www.geeksforgeeks.org/creating-socket-io-server-using-express-generator/)
 
 [course]: https://www.eduonix.com/dashboard/Projects-in-ExpressJS-Learn-ExpressJs-building-10-projects
