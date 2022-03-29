@@ -31,6 +31,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 ### Game Development Courses
 
 1. :heavy_check_mark: [Learn How To Build A Game Using Java](https://github.com/learning-game-development/learning-java-game-development/blob/master/block-breaker-tutorial) :rocket:
+2. :o: Concepts in Unity 3D Game Programming
 
 ### Other Courses
 
