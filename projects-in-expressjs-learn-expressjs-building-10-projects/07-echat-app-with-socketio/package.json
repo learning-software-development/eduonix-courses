@@ -1,8 +1,9 @@
 {
   "name": "07-echat-app-with-socketio",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
+    "debug": "DEBUG=07-echat-app-with-socketio:* npm start",
     "start": "node ./bin/www"
   },
   "dependencies": {
