@@ -1,4 +1,11 @@
-const clients = [];
+const clients = [
+  {
+    first_name: "Joe",
+    last_name: "Dundee",
+    email: "joe.dundee@gmail.com",
+    phone: "06 234 5678"
+  }
+];
 
 function getAllClients() {
   return clients;
