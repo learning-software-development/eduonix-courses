@@ -27,6 +27,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 1. :heavy_check_mark: [Learn Python programming From Scratch](learn-python-programming-from-scratch/)
 2. :heavy_check_mark: [The Developers Guide to Python 3 Programming](developers-guide-to-python-3-programming/)
 3. :heavy_check_mark: [Learn Android Development From Scratch](android-development-scratch/)
+4. :heavy_check_mark: Algorithms and Software Engineering for Professionals
 
 ### Game Development Courses
 
