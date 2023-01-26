@@ -20,7 +20,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 ### Web Application Development Courses
 
 1. :heavy_check_mark: [NodejS from Ground Up for Beginners](nodejs-from-ground-up-for-beginners/)
-2. :o: [Projects in ExpressJS-Learn ExpressJs building 10 projects](projects-in-expressjs-learn-expressjs-building-10-projects/)
+2. :heavy_check_mark: [Projects in ExpressJS-Learn ExpressJs building 10 projects](projects-in-expressjs-learn-expressjs-building-10-projects/)
 3. :heavy_check_mark: [Learn Nodejs programming from Scratch](learn-nodejs-programming-from-scratch)
 4. :heavy_check_mark: Learn Web Development Using VueJS
 
