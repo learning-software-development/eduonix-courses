@@ -16,6 +16,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 3. :heavy_check_mark: [Basic HTML5 & CSS for beginners (Build One Project)](basic-html5-css-for-beginners/)
 4. :heavy_check_mark: [Learn HTML5 Programming For Beginners](learn-html5-programming-for-beginners/)
 5. :heavy_check_mark: Learn HTML5 Blog Frontend
+6. :heavy_check_mark: Learn HTML5 Programming By Building Projects
 
 ### Web Application Development Courses
 
@@ -30,6 +31,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 2. :heavy_check_mark: [The Developers Guide to Python 3 Programming](developers-guide-to-python-3-programming/)
 3. :heavy_check_mark: [Learn Android Development From Scratch](android-development-scratch/)
 4. :heavy_check_mark: Algorithms and Software Engineering for Professionals
+5. :heavy_check_mark: Beginners Guide to Test Driven Development
 
 ### Game Development Courses
 
