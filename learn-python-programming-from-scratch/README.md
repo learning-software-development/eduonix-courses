@@ -1,4 +1,4 @@
-# :mortar_board: Learn Python programming From Scratch
+# :mortar_board: :snake: Learn Python programming From Scratch
 
 :link: Eduonix [online course][course]
 
