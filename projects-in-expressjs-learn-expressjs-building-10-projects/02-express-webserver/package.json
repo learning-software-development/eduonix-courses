@@ -15,7 +15,7 @@
     "node",
     "expressjs"
   ],
-  "author": "Quintin Henn (http://skerwe.web.za)",
+  "author": "Quintin Henn (https://skerwe.surge.sh/)",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",

@@ -2,7 +2,7 @@
   "name": "animated-bootstrap-template",
   "version": "0.1.0",
   "authors": [
-    "Quintin Henn (http://skerwe.web.za)"
+    "Quintin Henn (https://skerwe.surge.sh/)"
   ],
   "description": "Animated bootstrap template tutorial from Eduonix",
   "main": "index.html",
@@ -13,7 +13,7 @@
     "eduonix"
   ],
   "license": "MIT",
-  "homepage": "http://skerwe.web.za",
+  "homepage": "https://skerwe.surge.sh/",
   "private": true,
   "ignore": [
     "**/.*",

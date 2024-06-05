@@ -13,7 +13,7 @@
     "nodejs",
     "backbonejs"
   ],
-  "author": "Quintin Henn (http://skerwe.web.za)",
+  "author": "Quintin Henn (https://skerwe.surge.sh/)",
   "license": "ISC",
   "dependencies": {
     "backbone": "^1.4.0",

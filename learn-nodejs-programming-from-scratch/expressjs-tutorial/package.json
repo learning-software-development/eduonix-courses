@@ -11,7 +11,7 @@
     "learning",
     "expressjs"
   ],
-  "author": "Quintin Henn (http://skerwe.web.za)",
+  "author": "Quintin Henn (https://skerwe.surge.sh/)",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.6",

@@ -8,7 +8,7 @@
     "build": "parcel build ./src/index.html"
   },
   "keywords": [],
-  "author": "Quintin Henn (http://skerwe.web.za)",
+  "author": "Quintin Henn (https://skerwe.surge.sh/)",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-beta.2",
