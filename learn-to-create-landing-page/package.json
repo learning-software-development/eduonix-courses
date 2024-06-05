@@ -1,0 +1,19 @@
+{
+  "name": "learn-to-create-landing-page",
+  "version": "0.1.0",
+  "description": "Eduonix course: Learn to create an HTML and CSS3 landing page design",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server ./tutorial"
+  },
+  "keywords": [],
+  "author": "Quintin Henn (https://skerwe.surge.sh/)",
+  "license": "ISC",
+  "engines": {
+    "node": ">=10",
+    "pnpm": ">=3"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
