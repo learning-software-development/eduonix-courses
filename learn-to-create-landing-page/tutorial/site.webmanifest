@@ -1,6 +1,6 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "Landing Page",
+  "name": "Welcome Landing Page",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",

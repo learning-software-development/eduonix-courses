@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Landing Page</title>
+  <title>Welcome Landing Page</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="Eduonix course: Learn to create an HTML and CSS3 landing page design">
   <meta name="author" content="Quintin Henn, https://skerwe.surge.sh/">
@@ -25,9 +25,92 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
+  <main id="container">
+    <header>
+      <img src="img/logo.jpg" alt="Cloud Idea">
+    </header>
+    <section id="welcome">
+      <h1>Welcome to our landing page</h1>
+      <h4>Lorem ipsum dolor sit amet. Vel galisum optio est illum temporibus vel exercitationem iure qui animi
+        exercitationem ex molestiae ullam?</h4>
+    </section>
+    <section id="content">
+      <div id="info">
+        <ul>
+          <li><img src="img/number1.png" alt="Point 1">
+            Ad harum internos qui dolore maiores et natus tempora ut tenetur rerum ut quibusdam illo et dolorum officia.
+          </li>
+          <li><img src="img/number2.png" alt="Point 2">
+            Ad harum internos qui dolore maiores et natus tempora ut tenetur rerum ut quibusdam illo et dolorum officia.
+          </li>
+          <li><img src="img/number3.png" alt="Point 3">
+            Ad harum internos qui dolore maiores et natus tempora ut tenetur rerum ut quibusdam illo et dolorum officia.
+          </li>
+        </ul>
+        <footer class="content-footer">
+          <h3>More about us</h3>
+          <p>
+            A voluptate nihil aut rerum voluptatem aut exercitationem porro ea dolorem optio ea assumenda consequatur.
+            Et veniam cupiditate et similique consequatur ex itaque optio.
+          </p>
+        </footer>
+      </div>
+      <div id="contact-form">
+        <form>
+          <header>
+            <h3>Getting Started</h3>
+            <p>
+              A voluptate nihil aut rerum voluptatem aut exercitationem porro ea dolorem optio ea assumenda
+              consequatur.
+            </p>
+          </header>
+          <div>
+            <label for="name"> Name*
+              <input type="text" id="name" placeholder="John Doe" required>
+            </label>
+          </div>
+          <div>
+            <label for="email"> Email*
+              <input type="email" id="email" placeholder="John.Doe@gmail.com" required>
+            </label>
+          </div>
+          <div>
+            <label for="company"> Company
+              <input type="text" id="company" placeholder="Imagine Inc.">
+            </label>
+          </div>
+          <div>
+            <label for="phone"> Phone
+              <input type="text" id="phone" placeholder="31 6 00 000 000">
+            </label>
+          </div>
+          <div>
+            <em>* Required fields</em>
+            <input type="submit" value="Get In Touch">
+          </div>
+          <div class="clearfix"></div>
+          <footer>
+            <p>
+              We would never use any of our subscribers personal information for anything unspecified
+            </p>
+          </footer>
+        </form>
+      </div>
+      <div class="clearfix"></div>
+    </section>
+    <section id="testimonial">
+      <img src="img/testimonial.png" alt="Customer Testimonial">
+      <blockquote>
+        Aut officiis consequatur aut quas velit eos nemo tenetur et similique fugiat est itaque galisum non cumque
+        doloremque. Aut totam quia qui beatae modi et minus consectetur sit rerum dolore et nisi quos. Et accusantium
+        quos aut maiores porro hic nisi exercitationem et iste provident At neque galisum.
+        <footer>—John Doe, <cite>Imagine Inc.</cite></footer>
+      </blockquote>
+    </section>
+    <footer>
+      <p>Copyright &copy; 2024</p>
+    </footer>
+  </main>
 
 </body>
 
