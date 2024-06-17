@@ -15,8 +15,8 @@
   <meta property="og:image" content="">
   <meta property="og:image:alt" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
 
   <link rel="manifest" href="site.webmanifest">
@@ -27,7 +27,7 @@
 
   <main id="container">
     <header>
-      <img src="img/logo.jpg" alt="Cloud Idea">
+      <img id="logo" src="img/logo.jpg" alt="Cloud Idea">
     </header>
     <section id="welcome">
       <h1>Welcome to our landing page</h1>
@@ -36,7 +36,7 @@
     </section>
     <section id="content">
       <div id="info">
-        <ul>
+        <ul id="points">
           <li><img src="img/number1.png" alt="Point 1">
             Ad harum internos qui dolore maiores et natus tempora ut tenetur rerum ut quibusdam illo et dolorum officia.
           </li>
@@ -57,7 +57,7 @@
       </div>
       <div id="contact-form">
         <form>
-          <header>
+          <header id="contact-header">
             <h3>Getting Started</h3>
             <p>
               A voluptate nihil aut rerum voluptatem aut exercitationem porro ea dolorem optio ea assumenda
@@ -65,31 +65,27 @@
             </p>
           </header>
           <div>
-            <label for="name"> Name*
-              <input type="text" id="name" placeholder="John Doe" required>
-            </label>
+            <label for="name">Name*</label>
+            <input type="text" id="name" placeholder="John Doe" required>
           </div>
           <div>
-            <label for="email"> Email*
-              <input type="email" id="email" placeholder="John.Doe@gmail.com" required>
-            </label>
+            <label for="email">Email*</label>
+            <input type="email" id="email" placeholder="John.Doe@gmail.com" required>
           </div>
           <div>
-            <label for="company"> Company
-              <input type="text" id="company" placeholder="Imagine Inc.">
-            </label>
+            <label for="company">Company</label>
+            <input type="text" id="company" placeholder="Imagine Inc.">
           </div>
           <div>
-            <label for="phone"> Phone
-              <input type="text" id="phone" placeholder="31 6 00 000 000">
-            </label>
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" placeholder="31 6 00 000 000">
           </div>
           <div>
             <em>* Required fields</em>
             <input type="submit" value="Get In Touch">
           </div>
           <div class="clearfix"></div>
-          <footer>
+          <footer id="contact-footer">
             <p>
               We would never use any of our subscribers personal information for anything unspecified
             </p>

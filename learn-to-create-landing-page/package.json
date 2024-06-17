@@ -2,18 +2,27 @@
   "name": "learn-to-create-landing-page",
   "version": "0.1.0",
   "description": "Eduonix course: Learn to create an HTML and CSS3 landing page design",
-  "main": "index.html",
+  "source": "tutorial/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "http-server ./tutorial"
+    "start": "parcel",
+    "build": "parcel build"
   },
-  "keywords": [],
+  "keywords": [
+    "learning",
+    "front-end",
+    "HTML",
+    "CSS"
+  ],
   "author": "Quintin Henn (https://skerwe.surge.sh/)",
   "license": "ISC",
   "engines": {
     "node": ">=10",
     "pnpm": ">=3"
   },
-  "dependencies": {
-    "http-server": "^14.1.1"
+  "devDependencies": {
+    "@parcel/packager-raw-url": "2.12.0",
+    "@parcel/transformer-webmanifest": "2.12.0",
+    "parcel": "^2.12.0"
   }
 }

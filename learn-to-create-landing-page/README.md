@@ -6,6 +6,7 @@
 - [A collection of .gitignore templates](https://github.com/github/gitignore)
 - [A Collection of Useful .gitattributes Templates](https://github.com/gitattributes/gitattributes/tree/master)
 - [PNPM](https://pnpm.io/)
+- [Parcel](https://parceljs.org/)
 
 ## Getting Startet
 

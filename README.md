@@ -18,7 +18,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 5. :heavy_check_mark: Learn HTML5 Blog Frontend
 6. :heavy_check_mark: Learn HTML5 Programming By Building Projects
 7. :heavy_check_mark: Learn HTML5 and CSS3 by building a responsive tableless calendar
-8. :o: [Learn to create an HTML and CSS3 landing page design](learn-to-create-landing-page)
+8. :heavy_check_mark: [Learn to create an HTML and CSS3 landing page design](learn-to-create-landing-page)
 
 ### Web Application Development Courses
 

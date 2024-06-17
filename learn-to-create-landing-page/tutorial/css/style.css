@@ -84,6 +84,212 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   main#container {
+    width: 70%;
+    margin: 10px auto 0 auto;
+    background: #fff;
+    overflow: auto;
+   }
+
+   p {
+    margin: 10px 0;
+    line-height: 1.5em;
+   }
+
+   h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+   }
+
+   h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+   }
+
+   h4 {
+    font-size: 1.2em;
+    margin: 10px 0;
+   }
+
+   strong {
+    font-weight: bold;
+   }
+
+   .clearfix {
+    clear: both;
+   }
+
+   main > header {
+    border-bottom: 4px solid #4ea0d8;
+   }
+
+   img#logo {
+    margin: 0 auto;
+    display: block;
+   }
+
+   section#welcome {
+    text-align: center;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+   }
+
+   section > div#info {
+    float: left;
+    width: 45%;
+   }
+
+   section > div#contact-form {
+    float: right;
+    width: 45%;
+   }
+
+   ul#points {
+    text-decoration: none;
+    padding-inline-start: 0;
+   }
+
+   #points li {
+    list-style-type: none;
+    margin-bottom: 30px;
+   }
+
+   #points img {
+    float: left;
+    margin-right: 7px;
+   }
+
+   #contact-form {
+    padding: 10px 15px 15px 15px;
+    border: 4px solid #4ca0da;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    overflow: auto;
+    background: #f4f4f4;
+   }
+
+   #contact-form label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   }
+
+   #contact-form input[type='text'], #contact-form input[type='email'] {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 25px;
+    width: 65%;
+   }
+
+   #contact-form input[type='submit'] {
+    padding: 12px 17px;
+    color: #fff;
+    background: #fa6c3c;
+    border: 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    float: right;
+    display: block;
+    margin-bottom: 10px;
+   }
+
+   #contact-form input[type='submit']:hover {
+    background: #d55427;
+    cursor: pointer;
+   }
+
+   header#contact-header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+   }
+
+   footer#contact-footer {
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+   }
+
+   footer#contact-footer p {
+    font-style: italic;
+    text-align: center;
+    color: #666;
+    font-size: .8em;
+  }
+
+  section#testimonial {
+    margin: 40px 0;
+    font-style: italic;
+    color: #666;
+  }
+
+  section#testimonial img {
+    float: left;
+    margin-right: 20px;
+  }
+
+  main > footer {
+    text-align: center;
+    border-top: 1px solid #000;
+    color: #aaa;
+    width: 100%;
+  }
+
+  @media (max-width: 960px) {
+    main#container {
+      width: 80%;
+      overflow: initial;
+    }
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    h3 {
+      font-size: 1.3em;
+    }
+
+    section div#info, section div#contact-form {
+      float: unset;
+      width: auto;
+    }
+
+    #points li {
+      background: #eee;
+      padding: 8px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+    }
+
+    #contact-form {
+      padding: 10px 15px 15px 15px;
+      overflow: initial;
+    }
+
+    #contact-form label {
+      margin-bottom: 0;
+    }
+
+    #contact-form input[type='text'], #contact-form input[type='email'] {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    blockquote {
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+    }
+  }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
