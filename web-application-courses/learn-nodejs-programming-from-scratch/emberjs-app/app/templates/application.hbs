@@ -1,0 +1,32 @@
+{{page-title "EmberjsApp"}}
+
+<header>
+  <h1>Task List</h1>
+</header>
+
+<main>
+  <section class="task-form">
+    <form action="">
+      <div><input type="text" name="title" id="title" placeholder="Create a new task ..."></div>
+      <div><textarea name="description" id="description" cols="30" rows="10"></textarea></div>
+      <div><button type="submit">Add task</button></div>
+    </form>
+  </section>
+  <section>
+    <p class="task-count">You have 3 remaining tasks</p>
+  </section>
+  <section class="task-list"z>
+    <article>
+      <input type="checkbox" name="done" id="done">
+      <label for="done">Task name</label>
+      <button>Delete</button>
+      <div class="note">description of task</div>
+    </article>
+  </section>
+</main>
+
+<footer>
+  <p>Task-list &copy; Quintin 2021</p>
+</footer>
+
+{{outlet}}

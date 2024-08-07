@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding: 20px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.task-form div {
+  padding-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+button[type=submit] {
+  height: 40px;
+  width: 120px;
+}
+
+.task-list article {
+  margin: 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px black dotted;
+}
+
+input[type=checkbox] {
+  display: inline;
+  width: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 750px;
+  text-align: center;
+}
+
+.task-count {
+  padding: 5px;
+  background-color: #f4f4f4;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.task-list .note {
+  width: 75%;
+  margin-left: 20px;
+}
+
+.task-list .done {
+  text-decoration: line-through;
+}

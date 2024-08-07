@@ -9,30 +9,31 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 
 ## :beginner: Web Development Courses
 
-1. :heavy_check_mark: [Learn HTML5 Audio Player](learn-html5-audio-player)
-2. :heavy_check_mark: [Learn HTML and CSS3 with an animated Bootstrap template](learn-html-and-css3-with-an-animated-bootstrap-template)
-3. :heavy_check_mark: [Basic HTML5 & CSS for beginners (Build One Project)](basic-html5-css-for-beginners)
-4. :heavy_check_mark: [Learn HTML5 Programming For Beginners](learn-html5-programming-for-beginners)
+1. :heavy_check_mark: [Learn HTML5 Audio Player](web-development-courses/learn-html5-audio-player/)
+2. :heavy_check_mark: [Learn HTML and CSS3 with an animated Bootstrap template](web-development-courses/learn-html-and-css3-with-an-animated-bootstrap-template/)
+3. :heavy_check_mark: [Basic HTML5 & CSS for beginners (Build One Project)](web-development-courses/basic-html5-css-for-beginners/)
+4. :heavy_check_mark: [Learn HTML5 Programming For Beginners](web-development-courses/learn-html5-programming-for-beginners/)
 5. :heavy_check_mark: Learn HTML5 Blog Frontend
 6. :heavy_check_mark: Learn HTML5 Programming By Building Projects
 7. :heavy_check_mark: Learn HTML5 and CSS3 by building a responsive tableless calendar
-8. :heavy_check_mark: [Learn to create an HTML and CSS3 landing page design](learn-to-create-landing-page)
+8. :heavy_check_mark: [Learn to create an HTML and CSS3 landing page design](web-development-courses/learn-to-create-landing-page/)
 
 ## :beginner: Web Application Development Courses
 
-1. :heavy_check_mark: [NodejS from Ground Up for Beginners](nodejs-from-ground-up-for-beginners)
-2. :heavy_check_mark: [Projects in ExpressJS-Learn ExpressJs building 10 projects](projects-in-expressjs-learn-expressjs-building-10-projects)
-3. :heavy_check_mark: [Learn Nodejs programming from Scratch](learn-nodejs-programming-from-scratch)
+1. :heavy_check_mark: [NodejS from Ground Up for Beginners](web-application-courses/nodejs-from-ground-up-for-beginners/)
+2. :heavy_check_mark: [Projects in ExpressJS-Learn ExpressJs building 10 projects](web-application-courses/projects-in-expressjs-learn-expressjs-building-10-projects/)
+3. :heavy_check_mark: [Learn Nodejs programming from Scratch](web-application-courses/learn-nodejs-programming-from-scratch/)
 4. :heavy_check_mark: Learn Web Development Using VueJS
 
 ## :beginner: Software Development Courses
 
-1. :heavy_check_mark: [Learn Python programming From Scratch](learn-python-programming-from-scratch)
-2. :heavy_check_mark: [The Developers Guide to Python 3 Programming](developers-guide-to-python-3-programming)
-3. :heavy_check_mark: [Learn Android Development From Scratch](android-development-scratch)
+1. :heavy_check_mark: [Learn Python programming From Scratch](software-development-courses/learn-python-programming-from-scratch/)
+2. :heavy_check_mark: [The Developers Guide to Python 3 Programming](software-development-courses/developers-guide-to-python-3-programming/)
+3. :heavy_check_mark: [Learn Android Development From Scratch](software-development-courses/android-development-scratch/)
 4. :heavy_check_mark: Algorithms and Software Engineering for Professionals
 5. :heavy_check_mark: Beginners Guide to Test Driven Development
 6. :heavy_check_mark: Build A Board Game Predictor Using Machine Learning
+7. :o: [Learn To Build Microservices Driven Apps](software-development-courses/build-microservices-driven-apps/)
 
 ## :beginner: :video_game: Game Development Courses
 
