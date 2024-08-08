@@ -24,6 +24,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 2. :heavy_check_mark: [Projects in ExpressJS-Learn ExpressJs building 10 projects](web-application-courses/projects-in-expressjs-learn-expressjs-building-10-projects/)
 3. :heavy_check_mark: [Learn Nodejs programming from Scratch](web-application-courses/learn-nodejs-programming-from-scratch/)
 4. :heavy_check_mark: Learn Web Development Using VueJS
+5. :heavy_check_mark: [Learn To Build Microservices Driven Apps](web-application-courses/build-microservices-driven-apps/)
 
 ## :beginner: Software Development Courses
 
@@ -33,7 +34,6 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 4. :heavy_check_mark: Algorithms and Software Engineering for Professionals
 5. :heavy_check_mark: Beginners Guide to Test Driven Development
 6. :heavy_check_mark: Build A Board Game Predictor Using Machine Learning
-7. :o: [Learn To Build Microservices Driven Apps](software-development-courses/build-microservices-driven-apps/)
 
 ## :beginner: :video_game: Game Development Courses
 
