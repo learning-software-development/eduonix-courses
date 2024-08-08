@@ -1,0 +1,27 @@
+{
+  "name": "micro-services",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Learn To Build Microservices Driven Apps",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "debug": "SET DEBUG=micro-services:* & npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "learning",
+    "expressjs",
+    "micro-services"
+  ],
+  "author": "Quintin Henn",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
+}
