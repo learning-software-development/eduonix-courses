@@ -6,6 +6,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 
 :heavy_check_mark: Completed  
 :o: Incomplete
+:no_entry: No longer Available
 
 ## :beginner: Web Development Courses
 
@@ -39,6 +40,9 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 
 1. :heavy_check_mark: [Learn How To Build A Game Using Java](https://github.com/learning-game-development/learning-java-game-development/blob/master/block-breaker-tutorial) :rocket:
 2. :heavy_check_mark: [Concepts in Unity 3D Game Programming](https://github.com/learning-game-development/learning-unity-game-development/tree/master/Eduonix-Unity-Courses) :rocket:
+3. :no_entry: A Beginners Guide to Low Poly Models in Blender
+4. :no_entry: Make Low Poly 3D Environment Models in Blender and Unity
+5. :o: Beginners Guide to Modeling with Maya
 
 ## :beginner: E-Degrees/Bootcamps
 
