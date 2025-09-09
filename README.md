@@ -40,6 +40,16 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 1. :heavy_check_mark: [Learn How To Build A Game Using Java](https://github.com/learning-game-development/learning-java-game-development/blob/master/block-breaker-tutorial) :rocket:
 2. :heavy_check_mark: [Concepts in Unity 3D Game Programming](https://github.com/learning-game-development/learning-unity-game-development/tree/master/Eduonix-Unity-Courses) :rocket:
 
+## :beginner: E-Degrees/Bootcamps
+
+- :video_game: Game Development E-Degree
+  1. :o: Introduction to Professional Game Development with Construct
+  2. :o: Basic Game Development with Phaser And JavaScript
+  3. :o: Introduction to Visual Scripting In Unity - Game Development
+  4. Fundamentals of Game Design
+  5. Unity 2D Game Development Masterclass
+  6. Mobile Game Development using Unity
+
 ## :beginner: Other Courses
 
 1. :heavy_check_mark: Icon Design Masterclass : Learn Icon Design Principles
