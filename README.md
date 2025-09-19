@@ -42,7 +42,7 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 2. :heavy_check_mark: [Concepts in Unity 3D Game Programming](https://github.com/learning-game-development/learning-unity-game-development/tree/master/Eduonix-Unity-Courses) :rocket:
 3. :no_entry: A Beginners Guide to Low Poly Models in Blender
 4. :no_entry: Make Low Poly 3D Environment Models in Blender and Unity
-5. :o: Beginners Guide to Modeling with Maya
+5. :construction: Learn to Build Mobile Games using Corona SDK
 
 ## :beginner: E-Degrees/Bootcamps
 
@@ -58,6 +58,10 @@ These are all the [Eduonix][eduonix] online courses I completed to learn new ski
 
 1. :heavy_check_mark: Icon Design Masterclass : Learn Icon Design Principles
 2. :heavy_check_mark: Learn Linux from Scratch
+3. :heavy_check_mark: Beginners Guide to Modeling with Maya
+4. :o: Complete Guide To Social Media Marketing
+5. :construction: Youtube Beginners Guide To A Successful Channel
+6. :construction: Learn Web Automation Testing Using Selenium
 
 ## :page_with_curl: License
 
